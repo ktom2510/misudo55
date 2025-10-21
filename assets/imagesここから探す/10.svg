@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="25" viewBox="0 0 50 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="21.342" height="13.355" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_6986" data-name="Group 6986" transform="translate(0.387 -0.242)">
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="25" cy="12.5" rx="25" ry="12.5" transform="translate(-0.387 0.242)" fill="#fffaea"/>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(15.183 5.948)" clip-path="url(#clip-path)">
+      <g id="Group_6985" data-name="Group 6985" transform="translate(0 0)">
+        <path id="Path_183284" data-name="Path 183284" d="M10.933,6.676,7.055,13.354,20.449,6.676,7.055,0Z" transform="translate(0.894 0.001)" fill="#e7372f"/>
+        <rect id="Rectangle_9173" data-name="Rectangle 9173" width="14.263" height="2.253" transform="translate(0 5.549)" fill="#e7372f"/>
+      </g>
+    </g>
+  </g>
+</svg>

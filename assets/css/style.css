@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --content-width: 1000px;
+    --font-family: "Noto Sans JP", " ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Hiragino Sans", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans serif;
+    --font-family-en: "Unbounded", serif;
+    --color-text: #431200;
+    --color-text-white: #ffffff;
+    --color-text-link: #551900;
+    --color-primary: #e7372f;
+    --color-secondary: #ffb700;
+    --color-tertiary: #431200;
+    --color-background: #fffaea;
+    --color-border: #551900;
+    --layer-stack-1: 1;
+    --layer-stack-2: 2;
+    --layer-stack-3: 3;
+    --layer-stack-4: 4;
+}
+
+html,body {
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    letter-spacing: 0.06em;
+}
+
+a {
+    color: var(--color-text-link);
+}
