@@ -63,11 +63,97 @@
                                 </a>
                             </li>
                         </ul>
+                        <!-- liの直下にドロップダウンを設置するわけにはいかないのでulの兄弟にした↓ -->
+                        <!-- liの子要素としてドロップダウンを置くことはできたが本サイトがそれをしていなかったため本サイトと同じように制作 -->
+                        <!-- navタグを使わない理由はnavタグを使う場所はページで一か所の方が良いらしいのでスマホの展開するナビゲーションメニューにて使用する -->
+                         <!-- active -->
+                        <div id="mdNav_pc" class="mdNav_pc">
+                            <div class="mdNav_panel" data-menu="m_menu">
+                                <div class="mdNav_pc_inner">
+                                    <ul class="menu_list">
+                                        <li><a href="">おすすめ</a></li>
+                                        <li><a href="">ドーナツ・パイ・マフィン</a></li>
+                                        <li><a href="">ミスド ピッツァ</a></li>
+                                        <li><a href="">飲茶</a></li>
+                                        <li><a href="">ドリンク・スープ</a></li>
+                                        <li><a href="">メニュー・セット</a></li>
+                                        <li><a href="">ミスドゴハン</a></li>
+                                        <li><a href="">からだににじゅうまる</a></li>
+                                        <li><a href="">栄養成分・アレルギー情報</a></li>
+                                        <li><a href="">グッズ情報</a></li>
+                                        <li><a href="">キッズセット</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mdNav_panel" data-menu="enjoy">
+                                <div class="mdNav_pc_inner">
+                                    <ul class="menu_list">					
+                                        <li><a href="">ポン・デ・ライオンの森</a></li>											
+                                        <li><a href="">ミスドファンミーティング</a></li>
+                                        <li><a href="">misdo図鑑</a></li>
+                                        <li><a href="">ミスタードーナツの歴史</a></li>
+                                        <li><a href="">おうちでアレンジドーナツ</a></li>
+                                        <li><a href="">misdoチャンネル</a></li>
+                                        <li><a href="">ミスドトリビア</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mdNav_panel" data-menu="torikumi">
+                                <div class="mdNav_pc_inner">
+                                    <ul class="menu_list">			
+                                        <li><a href="">ミスタードーナツとSDGs</a></li>
+                                        <li><a href="">ミスドストーリー</a></li>
+                                        <li><a href="">おいしさへのこだわり</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
-            <div class="mdHeader_menu_block"></div>
+            <div class="mdHeader_menu_block">
+                <div class="mdHeader_menu_link">
+					<ul>
+						<li>
+                            <a href="" class="icon_blank" target="_blank">アルバイト募集</a>
+                            <!-- ここにafterで画像「icon_blank_brown.png」を入れる -->
+                        </li>
+						<li><a href="">よくあるご質問</a></li>
+						<li><a href="" target="_blank">お問い合わせ</a></li>
+					</ul>
+				</div>
+				<div class="mdHeader_menu">
+					<ul>
+						<li class="mdHeader_menu_search">
+                            <a href="">
+                                <div class="icon_wrap">
+                                    <span class="icon"><img src="./images/icon/h_icon_app.svg" alt=""></span>
+                                    <span class="txt"><img src="./images/icon/h_icon_app_txt.svg" alt="アプリダウンロード"></span>
+                                </div>
+                            </a>
+                        </li>
+						<li class="mdHeader_menu_order">
+                            <a href="" target="_blank">
+                                <div class="icon_wrap">
+                                    <span class="icon"><img src="./images/icon/h_icon_order.svg" alt=""></span>
+                                    <span class="txt"><img src="./images/icon/h_icon_order_txt.svg" alt="misdo ネットオーダー"></span>
+                                </div>
+                            </a>
+                        </li>
+						<li class="mdHeader_menu_delivery">
+                            <a href="">
+                                <div class="icon_wrap">
+                                    <span class="icon"><img src="./images/icon/h_icon_delivery.svg" alt=""></span>
+                                    <span class="txt"><img src="./images/icon/h_icon_delivery_txt.svg" alt="お届け"></span>
+                                </div>
+                            </a>
+                        </li>
+					</ul>
+				</div>
+                 
+			</div>
+            </div>
             <div class="mdHeader_menu_btn"></div>
         </div>
     </div>

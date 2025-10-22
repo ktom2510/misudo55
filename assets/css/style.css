@@ -30,4 +30,13 @@ body {
 
 a {
     color: var(--color-text-link);
+    text-decoration: none;
 }
+
+.mdHeader ul,
+.mdFooter ul{
+  width: 100%;
+  height: auto;
+  list-style:none;
+}
+
