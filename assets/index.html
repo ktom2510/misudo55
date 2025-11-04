@@ -18,7 +18,7 @@
             <div class="mdHeader_nav_block">
                 <div class="mdHeader_logo">
                     <p>
-                        <a href="./index.html">
+                        <a href="">
                             <img src="./images/logo.png" alt="misterdonut 55th anniversary">
                         </a>
                     </p>
@@ -63,54 +63,8 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- liの直下にドロップダウンを設置するわけにはいかないのでulの兄弟にした↓ -->
-                        <!-- liの子要素としてドロップダウンを置くことはできたが本サイトがそれをしていなかったため本サイトと同じように制作 -->
-                        <!-- navタグを使わない理由はnavタグを使う場所はページで一か所の方が良いらしいのでスマホの展開するナビゲーションメニューにて使用する -->
-                         <!-- active -->
-                        <div id="mdNav_pc" class="mdNav_pc">
-                            <div class="mdNav_panel" data-menu="m_menu">
-                                <div class="mdNav_pc_inner">
-                                    <ul class="menu_list">
-                                        <li><a href="">おすすめ</a></li>
-                                        <li><a href="">ドーナツ・パイ・マフィン</a></li>
-                                        <li><a href="">ミスド ピッツァ</a></li>
-                                        <li><a href="">飲茶</a></li>
-                                        <li><a href="">ドリンク・スープ</a></li>
-                                        <li><a href="">メニュー・セット</a></li>
-                                        <li><a href="">ミスドゴハン</a></li>
-                                        <li><a href="">からだににじゅうまる</a></li>
-                                        <li><a href="">栄養成分・アレルギー情報</a></li>
-                                        <li><a href="">グッズ情報</a></li>
-                                        <li><a href="">キッズセット</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="mdNav_panel" data-menu="enjoy">
-                                <div class="mdNav_pc_inner">
-                                    <ul class="menu_list">					
-                                        <li><a href="">ポン・デ・ライオンの森</a></li>											
-                                        <li><a href="">ミスドファンミーティング</a></li>
-                                        <li><a href="">misdo図鑑</a></li>
-                                        <li><a href="">ミスタードーナツの歴史</a></li>
-                                        <li><a href="">おうちでアレンジドーナツ</a></li>
-                                        <li><a href="">misdoチャンネル</a></li>
-                                        <li><a href="">ミスドトリビア</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="mdNav_panel" data-menu="torikumi">
-                                <div class="mdNav_pc_inner">
-                                    <ul class="menu_list">			
-                                        <li><a href="">ミスタードーナツとSDGs</a></li>
-                                        <li><a href="">ミスドストーリー</a></li>
-                                        <li><a href="">おいしさへのこだわり</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
             </div>
             <div class="mdHeader_menu_block">
                 <div class="mdHeader_menu_link">
@@ -153,11 +107,195 @@
 				</div>
                  
 			</div>
-            </div>
-            <div class="mdHeader_menu_btn"></div>
         </div>
     </div>
-
+    <div id="mdNav_pc" class="mdNav_pc">
+    <div class="mdNav_panel" data-menu="m_menu">
+        <div class="mdNav_pc_inner">
+            <ul class="menu_list">
+                <li><a href="">おすすめ</a></li>
+                <li><a href="">ドーナツ・パイ・マフィン</a></li>
+                <li><a href="">ミスド ピッツァ</a></li>
+                <li><a href="">飲茶</a></li>
+                <li><a href="">ドリンク・スープ</a></li>
+                <li><a href="">メニュー・セット</a></li>
+                <li><a href="">ミスドゴハン</a></li>
+                <li><a href="">からだににじゅうまる</a></li>
+                <li><a href="">栄養成分・アレルギー情報</a></li>
+                <li><a href="">グッズ情報</a></li>
+                <li><a href="">キッズセット</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mdNav_panel" data-menu="enjoy">
+        <div class="mdNav_pc_inner">
+            <ul class="menu_list">					
+                <li><a href="">ポン・デ・ライオンの森</a></li>											
+                <li><a href="">ミスドファンミーティング</a></li>
+                <li><a href="">misdo図鑑</a></li>
+                <li><a href="">ミスタードーナツの歴史</a></li>
+                <li><a href="">おうちでアレンジドーナツ</a></li>
+                <li><a href="">misdoチャンネル</a></li>
+                <li><a href="">ミスドトリビア</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mdNav_panel" data-menu="torikumi">
+        <div class="mdNav_pc_inner">
+            <ul class="menu_list">			
+                <li><a href="">ミスタードーナツとSDGs</a></li>
+                <li><a href="">ミスドストーリー</a></li>
+                <li><a href="">おいしさへのこだわり</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <nav>
+		<div id="mdNav_sp" class="mdNav_sp">
+			<p id="mdNav_sp_close" class="mdNav_sp_close">
+                <a href="#"><span>閉じる</span></a>
+                <!-- display:noneで「閉じる」を消す
+                   before(-を斜め)、after(-を斜め)で「X」を作る -->
+                <!-- pタグ内にaタグはOKだけど、buttonタグはNGなのでここではaタグを使っている。-->
+            </p>
+			<div class="mdNav_sp_block">
+				<div class="mdNav_sp_inner">
+					<div class="mdNav_sp_logo">
+						<p><a href=""><img src="./images/logo.png" alt="ミスタードーナツ"></a></p>
+					</div>
+					<div class="mdNav_sp_menu">
+						<ul>
+							<li class="mdNav_sp_menu_search">
+								<a href="">
+									<div class="icon_wrap">
+										<span class="icon"><img src="./images/icon/h_icon_app.svg" alt=""></span>
+										<span class="txt"><img src="./images/icon/h_icon_app_txt.svg" alt="アプリダウンロード"></span>
+									</div>
+								</a>
+							</li>
+							<li class="mdNav_sp_menu_order">
+								<a href="" target="_blank">
+									<div class="icon_wrap">
+										<span class="icon"><img src="./images/icon/h_icon_order.svg" alt=""></span>
+										<span class="txt"><img src="./images/icon/h_icon_order_txt.svg" alt="misdo ネットオーダー"></span>
+									</div>
+								</a>
+							</li>
+							<li class="mdNav_sp_menu_delivery">
+								<a href="">
+									<div class="icon_wrap">
+										<span class="icon"><img src="./images/icon/h_icon_delivery.svg" alt=""></span>
+										<span class="txt"><img src="./images/icon/h_icon_delivery_txt.svg" alt="お届け"></span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mdNav_sp_list">
+						<ul>
+							<li class="mdNav_sp_list_menu js-mdNav_sp_list_tgl">
+								<p class="mdNav_sp_list_ttl">
+									<a href="">
+                                        <!-- ここにbeforeで画像 -->
+                                        <span>商品情報</span>
+                                    </a>
+									<span class="mdNav_sp_list_trg js-mdNav_sp_list_trg"></span>
+								</p>
+								<div class="mdNav_sp_list_cnt js-mdNav_sp_list_cnt">
+									<div class="mdNav_sp_list_links">
+										<ul>
+											<li><a href="">おすすめ</a></li>
+											<li><a href="">ドーナツ・パイ・マフィン</a></li>
+											<li><a href="">ミスド ピッツァ</a></li>
+											<li><a href="">飲茶</a></li>
+											<li><a href="">ドリンク・スープ</a></li>
+											<li><a href="">メニュー・セット</a></li>
+											<li><a href="">ミスドゴハン</a></li>
+											<li><a href="">からだににじゅうまる</a></li>
+											<li><a href="">栄養成分・アレルギー情報</a></li>
+											<li><a href="">グッズ情報</a></li>
+											<li><a href="">キッズセット</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="mdNav_sp_list_enjoy js-mdNav_sp_list_tgl">
+								<p class="mdNav_sp_list_ttl">
+									<a href="">
+                                        <!-- ここにbeforeで画像 -->
+                                        <span>エンジョイmisdo</span>
+                                    </a>
+									<span class="mdNav_sp_list_trg js-mdNav_sp_list_trg"></span>
+								</p>
+								<div class="mdNav_sp_list_cnt js-mdNav_sp_list_cnt">
+									<div class="mdNav_sp_list_links">
+										<ul>
+											<li><a href="">ポン・デ・ライオンの森</a></li>											
+											<li><a href="">ミスドファンミーティング</a></li>
+											<li><a href="">misdo図鑑</a></li>
+											<li><a href="">ミスタードーナツの歴史</a></li>
+											<li><a href="">おうちでアレンジドーナツ</a></li>
+											<li><a href="">misdoチャンネル</a></li>
+											<li><a href="">ミスドトリビア</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="mdNav_sp_list_about js-mdNav_sp_list_tgl">
+								<p class="mdNav_sp_list_ttl">
+									<a href="">
+                                        <!-- ここにbeforeで画像 -->
+                                        <span>私たちの取り組み</span>
+                                    </a>
+									<span class="mdNav_sp_list_trg js-mdNav_sp_list_trg"></span>
+								</p>
+								<div class="mdNav_sp_list_cnt js-mdNav_sp_list_cnt">
+									<div class="mdNav_sp_list_links">
+										<ul>
+											<li><a href="">ミスタードーナツとSDGs</a></li>
+											<li><a href="">ミスドストーリー</a></li>
+											<li><a href="">おいしさへのこだわり</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="mdNav_sp_list_shop">
+								<p class="mdNav_sp_list_ttl icon_blank">
+									<a href="" target="_blank">
+                                        <!-- ここにbeforeで画像 -->
+                                        <span>ショップ検索</span>
+                                    </a>
+								</p>
+							</li>
+						</ul>
+					</div>
+					<div class="mdNav_sp_btn_list">
+						<div>
+							<p class="mdNav_sp_btn"><a href="">栄養成分・アレルギー情報</a></p>
+						</div>
+						<div>
+							<p class="mdNav_sp_btn icon_blank"><a href="" target="_blank">アルバイト募集</a></p>
+						</div>
+						<ul>
+							<li><p class="mdNav_sp_btn"><a href="">よくあるご質問</a></p></li>
+							<li><p class="mdNav_sp_btn"><a href="" target="_blank">お問い合わせ</a></p></li>
+						</ul>
+					</div>
+					<div class="mdNav_sp_sns">
+						<ul>
+							<li class="mdNav_sp_sns_item"><a href="" target="_blank"><img src="./images/icon/icon_instagram.png" alt="Instagram"></a></li>
+							<li class="mdNav_sp_sns_item"><a href="" target="_blank"><img src="./images/icon/icon_x.png" alt="Twitter"></a></li>
+							<li class="mdNav_sp_sns_item"><a href="" target="_blank"><img src="./images/icon/icon_tt.png" alt="TikTok"></a></li>
+							<li class="mdNav_sp_sns_item"><a href="" target="_blank"><img src="./images/icon/icon_fb.png" alt="Facebook"></a></li>
+							<li class="mdNav_sp_sns_item"><a href="" target="_blank"><img src="./images/icon/icon_line.png" alt="LINE"></a></li>
+							<li class="mdNav_sp_sns_item"><a href="" target="_blank"><img src="./images/icon/icon_youtube.png" alt="YouTube"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="mdNav_sp_cover" class="mdNav_sp_cover"></div>
+		</div>
+	</nav>
 </header>
     <!-- /#header -->
 
